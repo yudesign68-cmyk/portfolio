@@ -1,0 +1,56 @@
+[
+  {
+    "id": "snack-01",
+    "title": "Color System Exploration",
+    "tags": ["Visual Design"],
+    "year": "2024",
+    "cover": "",
+    "color": "#D4C8C0",
+    "description": "Experimenting with perceptually uniform color scales for UI systems."
+  },
+  {
+    "id": "snack-02",
+    "title": "Type Pairings",
+    "tags": ["Typography"],
+    "year": "2024",
+    "cover": "",
+    "color": "#C0C8D4",
+    "description": "A collection of serif + sans-serif pairings tested in real layout contexts."
+  },
+  {
+    "id": "snack-03",
+    "title": "Micro-interaction Sketches",
+    "tags": ["Motion", "Prototyping"],
+    "year": "2023",
+    "cover": "",
+    "color": "#C8D4C0",
+    "description": "Rough explorations of button states, transitions, and feedback animations."
+  },
+  {
+    "id": "snack-04",
+    "title": "Icon Set — Daily Objects",
+    "tags": ["Illustration"],
+    "year": "2023",
+    "cover": "",
+    "color": "#D4C0C8",
+    "description": "A minimal icon set drawn from everyday household and desk objects."
+  },
+  {
+    "id": "snack-05",
+    "title": "Layout Studies",
+    "tags": ["Visual Design", "Grid"],
+    "year": "2023",
+    "cover": "",
+    "color": "#C4C8C0",
+    "description": "Grid-based layout experiments inspired by editorial print design."
+  },
+  {
+    "id": "snack-06",
+    "title": "Accessibility Audit — Public Apps",
+    "tags": ["Accessibility", "Research"],
+    "year": "2022",
+    "cover": "",
+    "color": "#C8C0D4",
+    "description": "Quick accessibility checks across five popular public-sector apps."
+  }
+]

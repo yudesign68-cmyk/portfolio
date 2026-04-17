@@ -1,0 +1,46 @@
+[
+  {
+    "id": "cleverly",
+    "title": "Cleverly",
+    "type": "Case Study",
+    "tags": ["UX Research", "Product Design"],
+    "year": "2024",
+    "cover": "",
+    "color": "#C8C4BB",
+    "summary": "Redesigning the onboarding experience to reduce drop-off and improve first-week retention.",
+    "url": "work/cleverly.html"
+  },
+  {
+    "id": "mediphin",
+    "title": "Mediphin",
+    "type": "Case Study",
+    "tags": ["Healthcare", "Mobile Design"],
+    "year": "2024",
+    "cover": "",
+    "color": "#BFC8C4",
+    "summary": "A medication management app designed for elderly users navigating complex prescription schedules.",
+    "url": "work/mediphin.html"
+  },
+  {
+    "id": "robots-in-public-space",
+    "title": "Robots in Public Space",
+    "type": "Case Study",
+    "tags": ["Service Design", "Research"],
+    "year": "2023",
+    "cover": "",
+    "color": "#C4BBC8",
+    "summary": "Exploring how autonomous robots should communicate intent and navigate social norms in shared spaces.",
+    "url": "work/robots.html"
+  },
+  {
+    "id": "dashboard-reading",
+    "title": "Dashboard for Reading",
+    "type": "Showcase",
+    "tags": ["Data Visualization", "UI Design"],
+    "year": "2023",
+    "cover": "",
+    "color": "#C8C0BB",
+    "summary": "A personal reading tracker dashboard that turns habits into visual stories.",
+    "url": "work/dashboard.html"
+  }
+]
