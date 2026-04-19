@@ -19,13 +19,14 @@ function setActiveNav() {
   });
 }
 
-function coverEl(cover, color, title) {
+function coverEl(cover, color, title, coverUrl) {
   const div = document.createElement('div');
   div.className = 'card-cover';
   div.style.background = color || 'var(--gray-box)';
-  if (cover) {
+  const src = coverUrl || (cover ? path('/assets/images/' + cover) : null);
+  if (src) {
     const img = document.createElement('img');
-    img.src = path('/assets/images/' + cover);
+    img.src = src;
     img.alt = title;
     div.appendChild(img);
   } else {
@@ -51,7 +52,7 @@ async function renderWork() {
       a.className = 'work-card';
       a.href = path('/' + p.url);
 
-      a.appendChild(coverEl(p.cover, p.color, p.title));
+      a.appendChild(coverEl(p.cover, p.color, p.title, p.coverUrl));
 
       a.innerHTML += `
         <div class="card-meta">

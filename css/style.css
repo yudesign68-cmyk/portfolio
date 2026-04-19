@@ -463,6 +463,370 @@ footer {
   100% { background-position: -200% 0; }
 }
 
+/* ── Case Study ── */
+
+.cs-hero {
+  padding: 72px 0 56px;
+}
+
+.cs-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--ink-muted);
+  margin-bottom: 40px;
+  transition: color 0.15s;
+}
+
+.cs-back:hover { color: var(--ink); }
+
+.cs-hero-eyebrow {
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+  margin-bottom: 16px;
+}
+
+.cs-hero-title {
+  font-family: var(--serif);
+  font-size: clamp(2.4rem, 5vw, 4rem);
+  font-weight: 300;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin-bottom: 16px;
+}
+
+.cs-hero-title em { font-style: italic; }
+
+.cs-hero-sub {
+  font-size: 1.05rem;
+  color: var(--ink-muted);
+  max-width: 580px;
+  line-height: 1.7;
+  margin-bottom: 48px;
+}
+
+.cs-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 40px;
+}
+
+.cs-meta-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 32px;
+  padding-top: 40px;
+  border-top: 1px solid var(--border);
+}
+
+.cs-meta-label {
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+  margin-bottom: 6px;
+}
+
+.cs-meta-value {
+  font-size: 0.88rem;
+  line-height: 1.6;
+}
+
+.cs-cover {
+  width: 100%;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--gray-box);
+  margin-bottom: 0;
+}
+
+.cs-cover img { width: 100%; display: block; }
+
+/* Sections */
+
+.cs-section {
+  padding: 72px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.cs-section:last-of-type { border-bottom: none; }
+
+.cs-section-label {
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+  margin-bottom: 24px;
+}
+
+.cs-h2 {
+  font-family: var(--serif);
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  font-weight: 300;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  margin-bottom: 24px;
+}
+
+.cs-h2 em { font-style: italic; }
+
+.cs-h3 {
+  font-family: var(--serif);
+  font-size: 1.15rem;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+
+.cs-h3:first-child { margin-top: 0; }
+
+.cs-body {
+  font-size: 0.95rem;
+  line-height: 1.8;
+  color: var(--ink-muted);
+  max-width: 680px;
+}
+
+.cs-body + .cs-body { margin-top: 16px; }
+
+/* Images */
+
+.cs-img {
+  width: 100%;
+  border-radius: var(--radius);
+  margin: 40px 0;
+  overflow: hidden;
+  background: var(--gray-box);
+}
+
+.cs-img img { width: 100%; display: block; }
+
+.cs-img-caption {
+  font-size: 0.78rem;
+  color: var(--ink-muted);
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.cs-img-grid {
+  display: grid;
+  gap: 16px;
+  margin: 40px 0;
+}
+
+.cs-img-grid.cols-2 { grid-template-columns: 1fr 1fr; }
+.cs-img-grid.cols-3 { grid-template-columns: repeat(3, 1fr); }
+.cs-img-grid .cs-img { margin: 0; }
+
+/* Callout / Quote */
+
+.cs-callout {
+  background: var(--border);
+  border-radius: var(--radius);
+  padding: 36px 44px;
+  margin: 40px 0;
+}
+
+.cs-callout-text {
+  font-family: var(--serif);
+  font-size: clamp(1.1rem, 2vw, 1.5rem);
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+}
+
+.cs-callout-text em { font-style: italic; }
+
+.cs-quote {
+  border-left: 2px solid var(--ink-muted);
+  padding: 4px 28px;
+  margin: 40px 0;
+}
+
+.cs-quote-text {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--ink-muted);
+  margin-bottom: 14px;
+}
+
+.cs-quote-attr {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--ink-muted);
+}
+
+/* Table */
+
+.cs-table-wrap {
+  overflow-x: auto;
+  margin: 32px 0;
+}
+
+.cs-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+}
+
+.cs-table th {
+  text-align: left;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+.cs-table td {
+  padding: 16px;
+  border-bottom: 1px solid var(--border);
+  line-height: 1.6;
+  vertical-align: top;
+  color: var(--ink-muted);
+}
+
+.cs-table td strong { color: var(--ink); font-weight: 600; }
+.cs-table tr:last-child td { border-bottom: none; }
+
+/* Phase blocks (Cleverly before/after) */
+
+.cs-phase-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin: 32px 0;
+}
+
+.cs-phase-badge {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 3px 10px;
+  border-radius: 99px;
+  margin-bottom: 12px;
+}
+
+.cs-phase-badge.problem { background: #f0e8e8; color: #8b4444; }
+.cs-phase-badge.solution { background: #e8f0e9; color: #3d6644; }
+
+/* Feature cards */
+
+.cs-feature-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 32px;
+}
+
+.cs-feature-card {
+  padding: 28px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.cs-feature-name {
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+}
+
+.cs-feature-desc {
+  font-size: 0.875rem;
+  color: var(--ink-muted);
+  line-height: 1.65;
+}
+
+/* Insight / pain point cards */
+
+.cs-insight-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.cs-insight-card {
+  padding: 24px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.cs-insight-num {
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+  margin-bottom: 6px;
+}
+
+.cs-insight-title {
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+}
+
+.cs-insight-body {
+  font-size: 0.875rem;
+  color: var(--ink-muted);
+  line-height: 1.65;
+}
+
+/* Impact */
+
+.cs-impact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 24px;
+}
+
+.cs-impact-item {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--ink-muted);
+}
+
+.cs-impact-icon { flex-shrink: 0; }
+
+/* Reflection grid */
+
+.cs-reflection-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  margin-top: 32px;
+}
+
+.cs-reflection-title {
+  font-weight: 600;
+  font-size: 0.88rem;
+  margin-bottom: 8px;
+}
+
+.cs-reflection-body {
+  font-size: 0.875rem;
+  line-height: 1.75;
+  color: var(--ink-muted);
+}
+
 /* ── Responsive ── */
 
 @media (max-width: 768px) {
@@ -473,6 +837,15 @@ footer {
 
   .work-grid { grid-template-columns: 1fr; gap: 40px; }
   .snacks-grid { grid-template-columns: repeat(2, 1fr); }
+
+  .cs-meta-row { grid-template-columns: repeat(2, 1fr); gap: 24px; }
+  .cs-phase-grid { grid-template-columns: 1fr; }
+  .cs-img-grid.cols-2,
+  .cs-img-grid.cols-3 { grid-template-columns: 1fr; }
+  .cs-reflection-grid { grid-template-columns: 1fr; }
+  .cs-feature-grid { grid-template-columns: 1fr; }
+  .cs-callout { padding: 24px 28px; }
+  .cs-section { padding: 48px 0; }
 
   .about-layout {
     grid-template-columns: 1fr;

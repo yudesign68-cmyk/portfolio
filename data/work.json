@@ -6,6 +6,7 @@
     "tags": ["UX Research", "Product Design"],
     "year": "2024",
     "cover": "",
+    "coverUrl": "https://cdn.prod.website-files.com/67b72db85d52db126012f40b/67b7383f57c9c6effd912b52_Yusun-Cleverly.png",
     "color": "#C8C4BB",
     "summary": "Redesigning the onboarding experience to reduce drop-off and improve first-week retention.",
     "url": "work/cleverly.html"
@@ -17,6 +18,7 @@
     "tags": ["Healthcare", "Mobile Design"],
     "year": "2024",
     "cover": "",
+    "coverUrl": "https://cdn.prod.website-files.com/67b72db85d52db126012f40b/6805bc194c33f7138bb575d0_Yusun-Mediphin.jpg",
     "color": "#BFC8C4",
     "summary": "A medication management app designed for elderly users navigating complex prescription schedules.",
     "url": "work/mediphin.html"
@@ -28,9 +30,10 @@
     "tags": ["Service Design", "Research"],
     "year": "2023",
     "cover": "",
+    "coverUrl": "https://cdn.prod.website-files.com/67b72db85d52db126012f40b/6805bc9eaaf1ee12936c1114_Yusun-Robots.jpg",
     "color": "#C4BBC8",
     "summary": "Exploring how autonomous robots should communicate intent and navigate social norms in shared spaces.",
-    "url": "work/robots.html"
+    "url": "work/robots-in-public-space.html"
   },
   {
     "id": "dashboard-reading",
@@ -39,8 +42,9 @@
     "tags": ["Data Visualization", "UI Design"],
     "year": "2023",
     "cover": "",
+    "coverUrl": "https://cdn.prod.website-files.com/67b72db85d52db126012f40b/680063b37043835aeca92131_Yusun-Dashboard.png",
     "color": "#C8C0BB",
     "summary": "A personal reading tracker dashboard that turns habits into visual stories.",
-    "url": "work/dashboard.html"
+    "url": "work/dashboard-for-reading.html"
   }
 ]
